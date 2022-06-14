@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
      * Gibt das Ergebnis der Division im Log aus
      */
     private fun divider(nr: Int) {
-        if (nr>= 0) {
+        if (nr > 0) {
             val divisionResult = countNr / nr
             Log.v("Main Activity", divisionResult.toString())
         }
